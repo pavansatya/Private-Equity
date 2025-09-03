@@ -6,7 +6,7 @@ A comprehensive, automated portfolio tracking system that monitors your stock po
 
 - 📊 **Daily Portfolio Tracking** - Automatic monitoring of 14 stocks in your portfolio
 - 📈 **Real-time Price Updates** - Fetches live prices via Yahoo Finance API
-- 🚨 **Smart Alerts** - Notifies when stocks move outside ±5% P&L threshold
+- 🚨 **Daily P&L Alerts** - Notifies when stocks move ±5% in a single day
 - 📧 **Automated Daily Reports** - Comprehensive email reports with charts
 - 📁 **Excel Integration** - Updates portfolio files and maintains performance history
 - 📊 **Visual Analytics** - Portfolio allocation pie charts and P&L bar charts
@@ -24,10 +24,10 @@ A comprehensive, automated portfolio tracking system that monitors your stock po
    - Individual P&L calculations
    - Performance percentages
 
-3. **Smart Alerts**
-   - Stocks with significant gains/losses
-   - Color-coded notifications
-   - Threshold-based triggers
+3. **Daily P&L Alerts**
+   - Stocks that moved significantly in a single day
+   - Color-coded notifications (green for gains, red for losses)
+   - ±5% daily movement threshold
 
 4. **Visual Charts**
    - Portfolio allocation breakdown
@@ -128,12 +128,19 @@ PORTFOLIO_LIST = ['TATAMOTORS', 'INFY', 'RELIANCE', 'TCS', 'HDFC']
 ```
 Portfolio Tracker/
 ├── portfolio_tracker.py      # Main system
+├── portfolio_performance_analysis.py  # Performance analysis
 ├── test_portfolio_tracker.py # Testing script
 ├── requirements.txt          # Dependencies
 ├── SETUP_GUIDE.md           # Detailed setup
 ├── README.md                # This file
 ├── sample_portfolio.xlsx    # Portfolio template
-└── updated_portfolio.xlsx   # Updated data
+├── updated_portfolio.xlsx   # Updated data
+├── portfolio_data/          # Daily price snapshots
+│   └── portfolio_data_YYYYMMDD.json
+└── portfolio_charts/        # Portfolio charts and visualizations
+    ├── portfolio_chart_YYYYMMDD.png
+    ├── portfolio_performance_charts_YYYYMMDD.png
+    └── stock_analysis_charts_YYYYMMDD.png
 ```
 
 ## 🧪 Testing

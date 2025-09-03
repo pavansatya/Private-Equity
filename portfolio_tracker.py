@@ -25,6 +25,7 @@ from datetime import datetime, timedelta
 import warnings
 import os
 import sys
+import json
 
 warnings.filterwarnings('ignore')
 
@@ -34,11 +35,11 @@ PORTFOLIO_LIST = ['TATAMOTORS', 'TATASTEEL', 'INFY', 'LICI', 'VEDL', 'EXIDEIND',
                   'IEX', 'HCLTECH']
 
 # Email configuration (UPDATE THESE WITH YOUR CREDENTIALS)
-EMAIL_SENDER = "email@gmail.com"  # Replace with your Gmail
-EMAIL_PASSWORD = "PASSWORD"    # Replace with your Gmail App Password
-EMAIL_RECEIVER = "email@gmail.com" # Replace with your email
-REPORT_TIME = "TIME"  # 5:00 AM CST
-ALERT_THRESHOLD = "Percentage"  # Alert for P&L outside ±5%
+EMAIL_SENDER = "krishvenigalla06@gmail.com"  # Replace with your Gmail
+EMAIL_PASSWORD = "dkgl fbiw ilcb biqk"    # Replace with your Gmail App Password
+EMAIL_RECEIVER = "krishvenigalla06@gmail.com" # Replace with your email
+REPORT_TIME = "05:00"  # 5:00 AM CST
+ALERT_THRESHOLD = 5.0
 
 class PortfolioTracker:
     def __init__(self):
@@ -95,6 +96,34 @@ class PortfolioTracker:
         self.portfolio_data['Unrealized_PL'] = self.portfolio_data['Current_Value'] - self.portfolio_data['Total_Investment']
         self.portfolio_data['PL_Percentage'] = (self.portfolio_data['Unrealized_PL'] / self.portfolio_data['Total_Investment']) * 100
         
+        # Calculate daily P&L (day-over-day change)
+        self.portfolio_data['Daily_PL_Percentage'] = 0.0  # Initialize daily P&L
+        
+        # Try to load most recent prior day's prices for daily P&L calculation
+        try:
+            # Look back up to 10 days to find the most recent snapshot (handles weekends/holidays)
+            previous_data = None
+            for day_offset in range(1, 11):
+                prior_date = (datetime.now() - timedelta(days=day_offset)).strftime('%Y%m%d')
+                candidate_file = f"portfolio_data/portfolio_data_{prior_date}.json"
+                if os.path.exists(candidate_file):
+                    with open(candidate_file, 'r') as f:
+                        previous_data = json.load(f)
+                    break
+            if previous_data is not None:
+                
+                for _, row in self.portfolio_data.iterrows():
+                    symbol = row['Stock_Symbol']
+                    if symbol in previous_data:
+                        previous_price = previous_data[symbol]
+                        current_price = row['Current_Price']
+                        if previous_price > 0:
+                            daily_change = ((current_price - previous_price) / previous_price) * 100
+                            self.portfolio_data.loc[self.portfolio_data['Stock_Symbol'] == symbol, 'Daily_PL_Percentage'] = daily_change
+                            print(f"📈 {symbol}: Daily change: {daily_change:+.2f}%")
+        except Exception as e:
+            print(f"⚠️  Could not calculate daily P&L (first run or no previous data): {e}")
+        
         # Calculate portfolio totals
         total_investment = self.portfolio_data['Total_Investment'].sum()
         total_current_value = self.portfolio_data['Current_Value'].sum()
@@ -114,20 +143,26 @@ class PortfolioTracker:
         print(f"   Total Investment: ₹{total_investment:,.2f}")
         print(f"   Current Value: ₹{total_current_value:,.2f}")
         print(f"   Total P&L: ₹{total_pl:,.2f} ({total_pl_percentage:+.2f}%)")
+        
+        # Save current prices for next day's daily P&L calculation
+        current_prices_data = {symbol: price for symbol, price in self.current_prices.items()}
+        with open(f"portfolio_data/portfolio_data_{datetime.now().strftime('%Y%m%d')}.json", 'w') as f:
+            json.dump(current_prices_data, f)
     
     def check_alerts(self):
-        """Check for stocks outside alert threshold"""
+        """Check for stocks outside daily P&L alert threshold"""
         alerts = []
         
         for _, row in self.portfolio_data.iterrows():
-            pl_percentage = row['PL_Percentage']
-            if abs(pl_percentage) > ALERT_THRESHOLD:
-                alert_type = "🔴 LOSS ALERT" if pl_percentage < -ALERT_THRESHOLD else "🟢 PROFIT ALERT"
+            daily_pl_percentage = row['Daily_PL_Percentage']
+            if abs(daily_pl_percentage) > ALERT_THRESHOLD:
+                alert_type = "🔴 DAILY LOSS ALERT" if daily_pl_percentage < -ALERT_THRESHOLD else "🟢 DAILY PROFIT ALERT"
                 alerts.append({
                     'symbol': row['Stock_Symbol'],
                     'type': alert_type,
-                    'pl_percentage': pl_percentage,
-                    'current_price': row['Current_Price']
+                    'daily_pl_percentage': daily_pl_percentage,
+                    'current_price': row['Current_Price'],
+                    'overall_pl_percentage': row['PL_Percentage']
                 })
         
         return alerts
@@ -144,22 +179,22 @@ class PortfolioTracker:
             ax1.pie(portfolio_by_value.values, labels=portfolio_by_value.index, autopct='%1.1f%%')
             ax1.set_title('Portfolio Allocation by Current Value', fontsize=14, fontweight='bold')
             
-            # Bar chart of P&L by stock
-            colors = ['green' if x >= 0 else 'red' for x in self.portfolio_data['PL_Percentage']]
-            ax2.bar(self.portfolio_data['Stock_Symbol'], self.portfolio_data['PL_Percentage'], color=colors)
-            ax2.set_title('Individual Stock P&L (%)', fontsize=14, fontweight='bold')
+            # Bar chart of Daily P&L by stock
+            colors = ['green' if x >= 0 else 'red' for x in self.portfolio_data['Daily_PL_Percentage']]
+            ax2.bar(self.portfolio_data['Stock_Symbol'], self.portfolio_data['Daily_PL_Percentage'], color=colors)
+            ax2.set_title('Daily P&L by Stock (%)', fontsize=14, fontweight='bold')
             ax2.set_xlabel('Stock Symbol')
-            ax2.set_ylabel('P&L Percentage (%)')
+            ax2.set_ylabel('Daily P&L Percentage (%)')
             ax2.tick_params(axis='x', rotation=45)
             ax2.axhline(y=0, color='black', linestyle='-', alpha=0.3)
-            ax2.axhline(y=ALERT_THRESHOLD, color='orange', linestyle='--', alpha=0.7, label=f'+{ALERT_THRESHOLD}% Alert')
-            ax2.axhline(y=-ALERT_THRESHOLD, color='orange', linestyle='--', alpha=0.7, label=f'-{ALERT_THRESHOLD}% Alert')
+            ax2.axhline(y=ALERT_THRESHOLD, color='orange', linestyle='--', alpha=0.7, label=f'+{ALERT_THRESHOLD}% Daily Alert')
+            ax2.axhline(y=-ALERT_THRESHOLD, color='orange', linestyle='--', alpha=0.7, label=f'-{ALERT_THRESHOLD}% Daily Alert')
             ax2.legend()
             
             plt.tight_layout()
             
             # Save chart
-            chart_filename = f"portfolio_chart_{datetime.now().strftime('%Y%m%d')}.png"
+            chart_filename = f"portfolio_charts/portfolio_chart_{datetime.now().strftime('%Y%m%d')}.png"
             plt.savefig(chart_filename, dpi=300, bbox_inches='tight')
             plt.close()
             
@@ -204,19 +239,20 @@ class PortfolioTracker:
             <tr style="background-color: #007bff; color: white;">
                 <th style="padding: 10px; border: 1px solid #ddd;">Stock</th>
                 <th style="padding: 10px; border: 1px solid #ddd;">Current Price</th>
-                <th style="padding: 10px; border: 1px solid #ddd;">P&L</th>
-                <th style="padding: 10px; border: 1px solid #ddd;">P&L %</th>
+                <th style="padding: 10px; border: 1px solid #ddd;">Daily P&L %</th>
+                <th style="padding: 10px; border: 1px solid #ddd;">Overall P&L %</th>
             </tr>
         """
         
         for _, row in self.portfolio_data.iterrows():
-            pl_color = 'green' if row['PL_Percentage'] >= 0 else 'red'
+            daily_pl_color = 'green' if row['Daily_PL_Percentage'] >= 0 else 'red'
+            overall_pl_color = 'green' if row['PL_Percentage'] >= 0 else 'red'
             stocks_html += f"""
             <tr>
                 <td style="padding: 10px; border: 1px solid #ddd;"><strong>{row['Stock_Symbol']}</strong></td>
                 <td style="padding: 10px; border: 1px solid #ddd;">₹{row['Current_Price']:.2f}</td>
-                <td style="padding: 10px; border: 1px solid #ddd; color: {pl_color};">₹{row['Unrealized_PL']:,.2f}</td>
-                <td style="padding: 10px; border: 1px solid #ddd; color: {pl_color};">{row['PL_Percentage']:+.2f}%</td>
+                <td style="padding: 10px; border: 1px solid #ddd; color: {daily_pl_color};">{row['Daily_PL_Percentage']:+.2f}%</td>
+                <td style="padding: 10px; border: 1px solid #ddd; color: {overall_pl_color};">{row['PL_Percentage']:+.2f}%</td>
             </tr>
             """
         
@@ -226,22 +262,26 @@ class PortfolioTracker:
         alerts_html = ""
         if alerts:
             alerts_html = f"""
-            <h3>🚨 Alerts ({len(alerts)} stocks outside ±{ALERT_THRESHOLD}% threshold)</h3>
+            <h3>🚨 Daily P&L Alerts ({len(alerts)} stocks moved ±{ALERT_THRESHOLD}% today)</h3>
             <table style="border-collapse: collapse; width: 100%; margin: 20px 0;">
                 <tr style="background-color: #fff3cd;">
                     <th style="padding: 10px; border: 1px solid #ddd;">Stock</th>
-                    <th style="padding: 10px; border: 1px solid #ddd;">Alert Type</th>
-                    <th style="padding: 10px; border: 1px solid #ddd;">P&L %</th>
+                    <th style="padding: 10px; border: 1px solid #ddd;">Daily Change</th>
+                    <th style="padding: 10px; border: 1px solid #ddd;">Overall P&L</th>
                 </tr>
             """
             
             for alert in alerts:
+                daily_color = 'green' if alert['daily_pl_percentage'] > 0 else 'red'
+                overall_color = 'green' if alert['overall_pl_percentage'] > 0 else 'red'
                 alerts_html += f"""
                 <tr>
                     <td style="padding: 10px; border: 1px solid #ddd;"><strong>{alert['symbol']}</strong></td>
-                    <td style="padding: 10px; border: 1px solid #ddd;">{alert['type']}</td>
-                    <td style="padding: 10px; border: 1px solid #ddd; color: {'green' if alert['pl_percentage'] > 0 else 'red'};">
-                        {alert['pl_percentage']:+.2f}%
+                    <td style="padding: 10px; border: 1px solid #ddd; color: {daily_color};">
+                        {alert['daily_pl_percentage']:+.2f}%
+                    </td>
+                    <td style="padding: 10px; border: 1px solid #ddd; color: {overall_color};">
+                        {alert['overall_pl_percentage']:+.2f}%
                     </td>
                 </tr>
                 """
@@ -372,7 +412,7 @@ class PortfolioTracker:
         if alerts:
             print(f"🚨 Found {len(alerts)} alerts:")
             for alert in alerts:
-                print(f"   {alert['symbol']}: {alert['type']} - {alert['pl_percentage']:+.2f}%")
+                print(f"   {alert['symbol']}: {alert['type']} - {alert['daily_pl_percentage']:+.2f}% today")
         
         # Step 5: Create charts
         chart_filename = self.create_portfolio_charts()

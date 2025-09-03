@@ -100,7 +100,7 @@ def test_portfolio_tracker():
         print(f"✅ Alert checking completed - Found {len(alerts)} alerts")
         if alerts:
             for alert in alerts:
-                print(f"   🚨 {alert['symbol']}: {alert['type']} - {alert['pl_percentage']:+.2f}%")
+                print(f"   🚨 {alert['symbol']}: {alert['type']} - Daily: {alert['daily_pl_percentage']:+.2f}%, Overall: {alert['overall_pl_percentage']:+.2f}%")
     except Exception as e:
         print(f"❌ Error checking alerts: {e}")
         return False

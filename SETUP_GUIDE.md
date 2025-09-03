@@ -62,7 +62,8 @@ This will:
 ### 2. Check Outputs
 - `sample_portfolio.xlsx` - Your portfolio template
 - `updated_portfolio.xlsx` - Updated with current prices
-- `portfolio_chart_YYYYMMDD.png` - Daily charts
+- `portfolio_data/portfolio_data_YYYYMMDD.json` - Daily price snapshots
+- `portfolio_charts/portfolio_chart_YYYYMMDD.png` - Daily charts
 - Email report in your inbox
 
 ## 🚀 Setting Up Daily Automation
