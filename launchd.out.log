@@ -2222,3 +2222,438 @@
 🎉 Daily portfolio tracking completed successfully!
 📧 Check your email for the daily report
 📁 Check 'updated_portfolio.xlsx' for updated data
+🚀 PORTFOLIO TRACKER SYSTEM
+==================================================
+🚀 Starting Daily Portfolio Tracker...
+📅 Date: 2025-11-11 10:20:08
+==================================================
+✅ Portfolio data loaded successfully from sample_portfolio.xlsx
+📊 Found 14 stocks in portfolio
+🔄 Fetching current market prices...
+⚠️  TATAMOTORS: Price not available
+✅ TATASTEEL: ₹181.04
+✅ INFY: ₹1530.30
+✅ LICI: ₹900.60
+✅ VEDL: ₹523.85
+✅ EXIDEIND: ₹377.00
+✅ TATAPOWER: ₹395.60
+✅ TRIDENT: ₹28.13
+✅ ONGC: ₹249.45
+✅ TATACHEM: ₹842.30
+✅ NTPC: ₹326.65
+✅ IRCTC: ₹710.70
+✅ IEX: ₹139.34
+✅ HCLTECH: ₹1570.00
+📈 Successfully fetched prices for 13 stocks
+🧮 Calculating portfolio performance...
+📊 Portfolio Summary:
+   Total Investment: ₹116,363.41
+   Current Value: ₹121,882.75
+   Total P&L: ₹5,519.34 (+4.74%)
+📊 Charts saved as portfolio_charts/portfolio_chart_20251111.png
+✅ Email report sent successfully to krishvenigalla06@gmail.com
+✅ Portfolio Excel updated: updated_portfolio.xlsx
+==================================================
+📊 Daily Portfolio Tracker Summary:
+   ✅ Portfolio loaded: 14 stocks
+   ✅ Prices fetched: 13 stocks
+   ✅ Alerts found: 0 stocks
+   ✅ Email sent: Yes
+   ✅ Excel updated: Yes
+   📈 Total P&L: ₹5,519.34 (+4.74%)
+
+🎉 Daily portfolio tracking completed successfully!
+📧 Check your email for the daily report
+📁 Check 'updated_portfolio.xlsx' for updated data
+🚀 PORTFOLIO TRACKER SYSTEM
+==================================================
+🚀 Starting Daily Portfolio Tracker...
+📅 Date: 2025-11-12 10:20:10
+==================================================
+✅ Portfolio data loaded successfully from sample_portfolio.xlsx
+📊 Found 14 stocks in portfolio
+🔄 Fetching current market prices...
+⚠️  TATAMOTORS: Price not available
+✅ TATASTEEL: ₹178.61
+✅ INFY: ₹1551.70
+✅ LICI: ₹900.15
+✅ VEDL: ₹520.60
+✅ EXIDEIND: ₹380.40
+✅ TATAPOWER: ₹388.65
+✅ TRIDENT: ₹28.92
+✅ ONGC: ₹253.85
+✅ TATACHEM: ₹852.35
+✅ NTPC: ₹327.15
+✅ IRCTC: ₹715.85
+✅ IEX: ₹139.43
+✅ HCLTECH: ₹1594.00
+📈 Successfully fetched prices for 13 stocks
+🧮 Calculating portfolio performance...
+📈 TATASTEEL: Daily change: -1.34%
+📈 INFY: Daily change: +1.40%
+📈 LICI: Daily change: -0.05%
+📈 VEDL: Daily change: -0.62%
+📈 EXIDEIND: Daily change: +0.90%
+📈 TATAPOWER: Daily change: -1.76%
+📈 TRIDENT: Daily change: +2.81%
+📈 ONGC: Daily change: +1.76%
+📈 TATACHEM: Daily change: +1.19%
+📈 NTPC: Daily change: +0.15%
+📈 IRCTC: Daily change: +0.72%
+📈 IEX: Daily change: +0.06%
+📈 HCLTECH: Daily change: +1.53%
+📊 Portfolio Summary:
+   Total Investment: ₹116,363.41
+   Current Value: ₹121,732.30
+   Total P&L: ₹5,368.89 (+4.61%)
+📊 Charts saved as portfolio_charts/portfolio_chart_20251112.png
+✅ Email report sent successfully to krishvenigalla06@gmail.com
+✅ Portfolio Excel updated: updated_portfolio.xlsx
+==================================================
+📊 Daily Portfolio Tracker Summary:
+   ✅ Portfolio loaded: 14 stocks
+   ✅ Prices fetched: 13 stocks
+   ✅ Alerts found: 0 stocks
+   ✅ Email sent: Yes
+   ✅ Excel updated: Yes
+   📈 Total P&L: ₹5,368.89 (+4.61%)
+
+🎉 Daily portfolio tracking completed successfully!
+📧 Check your email for the daily report
+📁 Check 'updated_portfolio.xlsx' for updated data
+🚀 PORTFOLIO TRACKER SYSTEM
+==================================================
+🚀 Starting Daily Portfolio Tracker...
+📅 Date: 2025-11-13 10:20:06
+==================================================
+✅ Portfolio data loaded successfully from sample_portfolio.xlsx
+📊 Found 14 stocks in portfolio
+🔄 Fetching current market prices...
+⚠️  TATAMOTORS: Price not available
+✅ TATASTEEL: ₹176.65
+✅ INFY: ₹1541.80
+✅ LICI: ₹902.85
+✅ VEDL: ₹529.60
+✅ EXIDEIND: ₹379.70
+✅ TATAPOWER: ₹388.80
+✅ TRIDENT: ₹28.77
+✅ ONGC: ₹250.85
+✅ TATACHEM: ₹841.50
+✅ NTPC: ₹326.95
+✅ IRCTC: ₹709.90
+✅ IEX: ₹138.45
+✅ HCLTECH: ₹1598.50
+📈 Successfully fetched prices for 13 stocks
+🧮 Calculating portfolio performance...
+📈 TATASTEEL: Daily change: -1.10%
+📈 INFY: Daily change: -0.64%
+📈 LICI: Daily change: +0.30%
+📈 VEDL: Daily change: +1.73%
+📈 EXIDEIND: Daily change: -0.18%
+📈 TATAPOWER: Daily change: +0.04%
+📈 TRIDENT: Daily change: -0.52%
+📈 ONGC: Daily change: -1.18%
+📈 TATACHEM: Daily change: -1.27%
+📈 NTPC: Daily change: -0.06%
+📈 IRCTC: Daily change: -0.83%
+📈 IEX: Daily change: -0.70%
+📈 HCLTECH: Daily change: +0.28%
+📊 Portfolio Summary:
+   Total Investment: ₹116,363.41
+   Current Value: ₹121,685.42
+   Total P&L: ₹5,322.01 (+4.57%)
+📊 Charts saved as portfolio_charts/portfolio_chart_20251113.png
+✅ Email report sent successfully to krishvenigalla06@gmail.com
+✅ Portfolio Excel updated: updated_portfolio.xlsx
+==================================================
+📊 Daily Portfolio Tracker Summary:
+   ✅ Portfolio loaded: 14 stocks
+   ✅ Prices fetched: 13 stocks
+   ✅ Alerts found: 0 stocks
+   ✅ Email sent: Yes
+   ✅ Excel updated: Yes
+   📈 Total P&L: ₹5,322.01 (+4.57%)
+
+🎉 Daily portfolio tracking completed successfully!
+📧 Check your email for the daily report
+📁 Check 'updated_portfolio.xlsx' for updated data
+🚀 PORTFOLIO TRACKER SYSTEM
+==================================================
+🚀 Starting Daily Portfolio Tracker...
+📅 Date: 2025-11-14 10:20:06
+==================================================
+✅ Portfolio data loaded successfully from sample_portfolio.xlsx
+📊 Found 14 stocks in portfolio
+🔄 Fetching current market prices...
+⚠️  TATAMOTORS: Price not available
+✅ TATASTEEL: ₹174.26
+✅ INFY: ₹1502.80
+✅ LICI: ₹909.45
+✅ VEDL: ₹525.35
+✅ EXIDEIND: ₹381.00
+✅ TATAPOWER: ₹388.40
+✅ TRIDENT: ₹28.21
+✅ ONGC: ₹247.60
+✅ TATACHEM: ₹832.75
+✅ NTPC: ₹328.45
+✅ IRCTC: ₹705.30
+✅ IEX: ₹137.55
+✅ HCLTECH: ₹1594.60
+📈 Successfully fetched prices for 13 stocks
+🧮 Calculating portfolio performance...
+📈 TATASTEEL: Daily change: -1.35%
+📈 INFY: Daily change: -2.53%
+📈 LICI: Daily change: +0.73%
+📈 VEDL: Daily change: -0.80%
+📈 EXIDEIND: Daily change: +0.34%
+📈 TATAPOWER: Daily change: -0.10%
+📈 TRIDENT: Daily change: -1.95%
+📈 ONGC: Daily change: -1.30%
+📈 TATACHEM: Daily change: -1.04%
+📈 NTPC: Daily change: +0.46%
+📈 IRCTC: Daily change: -0.65%
+📈 IEX: Daily change: -0.65%
+📈 HCLTECH: Daily change: -0.24%
+📊 Portfolio Summary:
+   Total Investment: ₹116,363.41
+   Current Value: ₹121,628.99
+   Total P&L: ₹5,265.58 (+4.53%)
+📊 Charts saved as portfolio_charts/portfolio_chart_20251114.png
+✅ Email report sent successfully to krishvenigalla06@gmail.com
+✅ Portfolio Excel updated: updated_portfolio.xlsx
+==================================================
+📊 Daily Portfolio Tracker Summary:
+   ✅ Portfolio loaded: 14 stocks
+   ✅ Prices fetched: 13 stocks
+   ✅ Alerts found: 0 stocks
+   ✅ Email sent: Yes
+   ✅ Excel updated: Yes
+   📈 Total P&L: ₹5,265.58 (+4.53%)
+
+🎉 Daily portfolio tracking completed successfully!
+📧 Check your email for the daily report
+📁 Check 'updated_portfolio.xlsx' for updated data
+🚀 PORTFOLIO TRACKER SYSTEM
+==================================================
+🚀 Starting Daily Portfolio Tracker...
+📅 Date: 2025-11-15 10:20:04
+==================================================
+✅ Portfolio data loaded successfully from sample_portfolio.xlsx
+📊 Found 14 stocks in portfolio
+🔄 Fetching current market prices...
+⚠️  TATAMOTORS: Price not available
+✅ TATASTEEL: ₹174.26
+✅ INFY: ₹1502.80
+✅ LICI: ₹909.45
+✅ VEDL: ₹525.35
+✅ EXIDEIND: ₹381.00
+✅ TATAPOWER: ₹388.40
+✅ TRIDENT: ₹28.21
+✅ ONGC: ₹247.60
+✅ TATACHEM: ₹832.75
+✅ NTPC: ₹328.45
+✅ IRCTC: ₹705.30
+✅ IEX: ₹137.55
+✅ HCLTECH: ₹1594.60
+📈 Successfully fetched prices for 13 stocks
+🧮 Calculating portfolio performance...
+📈 TATASTEEL: Daily change: +0.00%
+📈 INFY: Daily change: +0.00%
+📈 LICI: Daily change: +0.00%
+📈 VEDL: Daily change: +0.00%
+📈 EXIDEIND: Daily change: +0.00%
+📈 TATAPOWER: Daily change: +0.00%
+📈 TRIDENT: Daily change: +0.00%
+📈 ONGC: Daily change: +0.00%
+📈 TATACHEM: Daily change: +0.00%
+📈 NTPC: Daily change: +0.00%
+📈 IRCTC: Daily change: +0.00%
+📈 IEX: Daily change: +0.00%
+📈 HCLTECH: Daily change: +0.00%
+📊 Portfolio Summary:
+   Total Investment: ₹116,363.41
+   Current Value: ₹121,628.99
+   Total P&L: ₹5,265.58 (+4.53%)
+📊 Charts saved as portfolio_charts/portfolio_chart_20251115.png
+✅ Email report sent successfully to krishvenigalla06@gmail.com
+✅ Portfolio Excel updated: updated_portfolio.xlsx
+==================================================
+📊 Daily Portfolio Tracker Summary:
+   ✅ Portfolio loaded: 14 stocks
+   ✅ Prices fetched: 13 stocks
+   ✅ Alerts found: 0 stocks
+   ✅ Email sent: Yes
+   ✅ Excel updated: Yes
+   📈 Total P&L: ₹5,265.58 (+4.53%)
+
+🎉 Daily portfolio tracking completed successfully!
+📧 Check your email for the daily report
+📁 Check 'updated_portfolio.xlsx' for updated data
+🚀 PORTFOLIO TRACKER SYSTEM
+==================================================
+🚀 Starting Daily Portfolio Tracker...
+📅 Date: 2025-11-16 10:20:07
+==================================================
+✅ Portfolio data loaded successfully from sample_portfolio.xlsx
+📊 Found 14 stocks in portfolio
+🔄 Fetching current market prices...
+⚠️  TATAMOTORS: Price not available
+✅ TATASTEEL: ₹174.00
+✅ INFY: ₹1505.80
+✅ LICI: ₹909.00
+✅ VEDL: ₹526.00
+✅ EXIDEIND: ₹381.40
+✅ TATAPOWER: ₹388.60
+✅ TRIDENT: ₹28.23
+✅ ONGC: ₹247.50
+✅ TATACHEM: ₹833.00
+✅ NTPC: ₹328.85
+✅ IRCTC: ₹705.70
+✅ IEX: ₹137.75
+✅ HCLTECH: ₹1596.90
+📈 Successfully fetched prices for 13 stocks
+🧮 Calculating portfolio performance...
+📈 TATASTEEL: Daily change: -0.15%
+📈 INFY: Daily change: +0.20%
+📈 LICI: Daily change: -0.05%
+📈 VEDL: Daily change: +0.12%
+📈 EXIDEIND: Daily change: +0.10%
+📈 TATAPOWER: Daily change: +0.05%
+📈 TRIDENT: Daily change: +0.07%
+📈 ONGC: Daily change: -0.04%
+📈 TATACHEM: Daily change: +0.03%
+📈 NTPC: Daily change: +0.12%
+📈 IRCTC: Daily change: +0.06%
+📈 IEX: Daily change: +0.15%
+📈 HCLTECH: Daily change: +0.14%
+📊 Portfolio Summary:
+   Total Investment: ₹116,363.41
+   Current Value: ₹121,658.43
+   Total P&L: ₹5,295.02 (+4.55%)
+📊 Charts saved as portfolio_charts/portfolio_chart_20251116.png
+✅ Email report sent successfully to krishvenigalla06@gmail.com
+✅ Portfolio Excel updated: updated_portfolio.xlsx
+==================================================
+📊 Daily Portfolio Tracker Summary:
+   ✅ Portfolio loaded: 14 stocks
+   ✅ Prices fetched: 13 stocks
+   ✅ Alerts found: 0 stocks
+   ✅ Email sent: Yes
+   ✅ Excel updated: Yes
+   📈 Total P&L: ₹5,295.02 (+4.55%)
+
+🎉 Daily portfolio tracking completed successfully!
+📧 Check your email for the daily report
+📁 Check 'updated_portfolio.xlsx' for updated data
+🚀 PORTFOLIO TRACKER SYSTEM
+==================================================
+🚀 Starting Daily Portfolio Tracker...
+📅 Date: 2025-11-17 10:20:03
+==================================================
+✅ Portfolio data loaded successfully from sample_portfolio.xlsx
+📊 Found 14 stocks in portfolio
+🔄 Fetching current market prices...
+⚠️  TATAMOTORS: Price not available
+✅ TATASTEEL: ₹173.17
+✅ INFY: ₹1507.60
+✅ LICI: ₹915.35
+✅ VEDL: ₹520.80
+✅ EXIDEIND: ₹382.70
+✅ TATAPOWER: ₹392.75
+✅ TRIDENT: ₹28.45
+✅ ONGC: ₹248.05
+✅ TATACHEM: ₹834.45
+✅ NTPC: ₹330.20
+✅ IRCTC: ₹713.05
+✅ IEX: ₹137.55
+✅ HCLTECH: ₹1606.40
+📈 Successfully fetched prices for 13 stocks
+🧮 Calculating portfolio performance...
+📈 TATASTEEL: Daily change: -0.48%
+📈 INFY: Daily change: +0.12%
+📈 LICI: Daily change: +0.70%
+📈 VEDL: Daily change: -0.99%
+📈 EXIDEIND: Daily change: +0.34%
+📈 TATAPOWER: Daily change: +1.07%
+📈 TRIDENT: Daily change: +0.78%
+📈 ONGC: Daily change: +0.22%
+📈 TATACHEM: Daily change: +0.17%
+📈 NTPC: Daily change: +0.41%
+📈 IRCTC: Daily change: +1.04%
+📈 IEX: Daily change: -0.15%
+📈 HCLTECH: Daily change: +0.59%
+📊 Portfolio Summary:
+   Total Investment: ₹116,363.41
+   Current Value: ₹122,133.01
+   Total P&L: ₹5,769.60 (+4.96%)
+📊 Charts saved as portfolio_charts/portfolio_chart_20251117.png
+✅ Email report sent successfully to krishvenigalla06@gmail.com
+✅ Portfolio Excel updated: updated_portfolio.xlsx
+==================================================
+📊 Daily Portfolio Tracker Summary:
+   ✅ Portfolio loaded: 14 stocks
+   ✅ Prices fetched: 13 stocks
+   ✅ Alerts found: 0 stocks
+   ✅ Email sent: Yes
+   ✅ Excel updated: Yes
+   📈 Total P&L: ₹5,769.60 (+4.96%)
+
+🎉 Daily portfolio tracking completed successfully!
+📧 Check your email for the daily report
+📁 Check 'updated_portfolio.xlsx' for updated data
+🚀 PORTFOLIO TRACKER SYSTEM
+==================================================
+🚀 Starting Daily Portfolio Tracker...
+📅 Date: 2025-11-18 10:20:07
+==================================================
+✅ Portfolio data loaded successfully from sample_portfolio.xlsx
+📊 Found 14 stocks in portfolio
+🔄 Fetching current market prices...
+⚠️  TATAMOTORS: Price not available
+✅ TATASTEEL: ₹172.45
+✅ INFY: ₹1486.40
+✅ LICI: ₹915.50
+✅ VEDL: ₹510.70
+✅ EXIDEIND: ₹381.50
+✅ TATAPOWER: ₹386.25
+✅ TRIDENT: ₹28.38
+✅ ONGC: ₹246.95
+✅ TATACHEM: ₹826.70
+✅ NTPC: ₹328.45
+✅ IRCTC: ₹703.80
+✅ IEX: ₹136.65
+✅ HCLTECH: ₹1595.20
+📈 Successfully fetched prices for 13 stocks
+🧮 Calculating portfolio performance...
+📈 TATASTEEL: Daily change: -0.42%
+📈 INFY: Daily change: -1.41%
+📈 LICI: Daily change: +0.02%
+📈 VEDL: Daily change: -1.94%
+📈 EXIDEIND: Daily change: -0.31%
+📈 TATAPOWER: Daily change: -1.65%
+📈 TRIDENT: Daily change: -0.25%
+📈 ONGC: Daily change: -0.44%
+📈 TATACHEM: Daily change: -0.93%
+📈 NTPC: Daily change: -0.53%
+📈 IRCTC: Daily change: -1.30%
+📈 IEX: Daily change: -0.65%
+📈 HCLTECH: Daily change: -0.70%
+📊 Portfolio Summary:
+   Total Investment: ₹116,363.41
+   Current Value: ₹121,401.98
+   Total P&L: ₹5,038.57 (+4.33%)
+📊 Charts saved as portfolio_charts/portfolio_chart_20251118.png
+✅ Email report sent successfully to krishvenigalla06@gmail.com
+✅ Portfolio Excel updated: updated_portfolio.xlsx
+==================================================
+📊 Daily Portfolio Tracker Summary:
+   ✅ Portfolio loaded: 14 stocks
+   ✅ Prices fetched: 13 stocks
+   ✅ Alerts found: 0 stocks
+   ✅ Email sent: Yes
+   ✅ Excel updated: Yes
+   📈 Total P&L: ₹5,038.57 (+4.33%)
+
+🎉 Daily portfolio tracking completed successfully!
+📧 Check your email for the daily report
+📁 Check 'updated_portfolio.xlsx' for updated data
