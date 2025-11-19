@@ -60,8 +60,8 @@ def test_portfolio_tracker():
     try:
         # Mock current prices for testing
         mock_prices = {
-            'TATAMOTORS': 325.0,
-            'TMPV': 361.0,
+            'TMCV': 325.30,
+            'TMPV': 360.85,
             'TATASTEEL': 125.0,
             'INFY': 1550.0,
             'LICI': 820.0,

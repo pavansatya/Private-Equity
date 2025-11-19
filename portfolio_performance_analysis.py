@@ -28,13 +28,14 @@ plt.style.use('default')
 sns.set_palette("husl")
 
 # Portfolio configuration
-PORTFOLIO_LIST = ['TATAMOTORS', 'TMPV', 'TATASTEEL', 'INFY', 'LICI', 'VEDL', 'EXIDEIND', 
+PORTFOLIO_LIST = ['TMCV', 'TMPV', 'TATASTEEL', 'INFY', 'LICI', 'VEDL', 'EXIDEIND', 
                   'TATAPOWER', 'TRIDENT', 'ONGC', 'TATACHEM', 'NTPC', 'IRCTC', 
                   'IEX', 'HCLTECH']
 
 # Company names for better visualization
 COMPANY_NAMES = {
-    'TATAMOTORS': 'Tata Motors',
+    'TMCV': 'Tata Motors Limited',
+    'TMPV': 'Tata Motors Pass Vehicle Limited',
     'TATASTEEL': 'Tata Steel', 
     'INFY': 'Infosys',
     'LICI': 'LIC',
