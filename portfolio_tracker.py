@@ -30,7 +30,7 @@ import json
 warnings.filterwarnings('ignore')
 
 # Your portfolio configuration
-PORTFOLIO_LIST = ['TATAMOTORS', 'TATASTEEL', 'INFY', 'LICI', 'VEDL', 'EXIDEIND', 
+PORTFOLIO_LIST = ['TATAMOTORS', 'TMPV', 'TATASTEEL', 'INFY', 'LICI', 'VEDL', 'EXIDEIND', 
                   'TATAPOWER', 'TRIDENT', 'ONGC', 'TATACHEM', 'NTPC', 'IRCTC', 
                   'IEX', 'HCLTECH']
 

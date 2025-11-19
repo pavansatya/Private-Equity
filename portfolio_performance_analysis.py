@@ -28,7 +28,7 @@ plt.style.use('default')
 sns.set_palette("husl")
 
 # Portfolio configuration
-PORTFOLIO_LIST = ['TATAMOTORS', 'TATASTEEL', 'INFY', 'LICI', 'VEDL', 'EXIDEIND', 
+PORTFOLIO_LIST = ['TATAMOTORS', 'TMPV', 'TATASTEEL', 'INFY', 'LICI', 'VEDL', 'EXIDEIND', 
                   'TATAPOWER', 'TRIDENT', 'ONGC', 'TATACHEM', 'NTPC', 'IRCTC', 
                   'IEX', 'HCLTECH']
 
