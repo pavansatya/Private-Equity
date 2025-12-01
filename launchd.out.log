@@ -2713,3 +2713,620 @@
 🎉 Daily portfolio tracking completed successfully!
 📧 Check your email for the daily report
 📁 Check 'updated_portfolio.xlsx' for updated data
+🚀 PORTFOLIO TRACKER SYSTEM
+==================================================
+🚀 Starting Daily Portfolio Tracker...
+📅 Date: 2025-11-20 10:20:03
+==================================================
+✅ Portfolio data loaded successfully from sample_portfolio.xlsx
+📊 Found 15 stocks in portfolio
+🔄 Fetching current market prices...
+✅ TMCV: ₹322.85
+✅ TMPV: ₹359.80
+✅ TATASTEEL: ₹172.46
+✅ INFY: ₹1536.50
+✅ LICI: ₹908.30
+✅ VEDL: ₹509.75
+✅ EXIDEIND: ₹380.80
+✅ TATAPOWER: ₹388.10
+✅ TRIDENT: ₹28.59
+✅ ONGC: ₹248.05
+✅ TATACHEM: ₹818.90
+✅ NTPC: ₹326.60
+✅ IRCTC: ₹703.00
+✅ IEX: ₹143.13
+✅ HCLTECH: ₹1645.40
+📈 Successfully fetched prices for 15 stocks
+🧮 Calculating portfolio performance...
+📈 TATASTEEL: Daily change: -0.43%
+📈 INFY: Daily change: -0.30%
+📈 LICI: Daily change: -0.63%
+📈 VEDL: Daily change: -0.40%
+📈 EXIDEIND: Daily change: -0.03%
+📈 TATAPOWER: Daily change: -0.26%
+📈 TRIDENT: Daily change: +0.11%
+📈 ONGC: Daily change: -0.38%
+📈 TATACHEM: Daily change: -0.06%
+📈 NTPC: Daily change: +0.00%
+📈 IRCTC: Daily change: -0.28%
+📈 IEX: Daily change: +4.39%
+📈 HCLTECH: Daily change: -1.03%
+📊 Portfolio Summary:
+   Total Investment: ₹116,363.53
+   Current Value: ₹129,944.72
+   Total P&L: ₹13,581.19 (+11.67%)
+📊 Charts saved as portfolio_charts/portfolio_chart_20251120.png
+✅ Email report sent successfully to krishvenigalla06@gmail.com
+✅ Portfolio Excel updated: updated_portfolio.xlsx
+==================================================
+📊 Daily Portfolio Tracker Summary:
+   ✅ Portfolio loaded: 15 stocks
+   ✅ Prices fetched: 15 stocks
+   ✅ Alerts found: 0 stocks
+   ✅ Email sent: Yes
+   ✅ Excel updated: Yes
+   📈 Total P&L: ₹13,581.19 (+11.67%)
+
+🎉 Daily portfolio tracking completed successfully!
+📧 Check your email for the daily report
+📁 Check 'updated_portfolio.xlsx' for updated data
+🚀 PORTFOLIO TRACKER SYSTEM
+==================================================
+🚀 Starting Daily Portfolio Tracker...
+📅 Date: 2025-11-21 10:20:07
+==================================================
+✅ Portfolio data loaded successfully from sample_portfolio.xlsx
+📊 Found 15 stocks in portfolio
+🔄 Fetching current market prices...
+✅ TMCV: ₹324.10
+✅ TMPV: ₹362.25
+✅ TATASTEEL: ₹168.00
+✅ INFY: ₹1545.00
+✅ LICI: ₹902.40
+✅ VEDL: ₹496.40
+✅ EXIDEIND: ₹375.35
+✅ TATAPOWER: ₹387.00
+✅ TRIDENT: ₹28.38
+✅ ONGC: ₹246.95
+✅ TATACHEM: ₹810.00
+✅ NTPC: ₹326.65
+✅ IRCTC: ₹690.40
+✅ IEX: ₹141.12
+✅ HCLTECH: ₹1608.00
+📈 Successfully fetched prices for 15 stocks
+🧮 Calculating portfolio performance...
+📈 TMCV: Daily change: +0.39%
+📈 TMPV: Daily change: +0.68%
+📈 TATASTEEL: Daily change: -2.59%
+📈 INFY: Daily change: +0.55%
+📈 LICI: Daily change: -0.65%
+📈 VEDL: Daily change: -2.62%
+📈 EXIDEIND: Daily change: -1.43%
+📈 TATAPOWER: Daily change: -0.28%
+📈 TRIDENT: Daily change: -0.73%
+📈 ONGC: Daily change: -0.44%
+📈 TATACHEM: Daily change: -1.09%
+📈 NTPC: Daily change: +0.02%
+📈 IRCTC: Daily change: -1.79%
+📈 IEX: Daily change: -1.40%
+📈 HCLTECH: Daily change: -2.27%
+📊 Portfolio Summary:
+   Total Investment: ₹116,363.53
+   Current Value: ₹128,640.93
+   Total P&L: ₹12,277.40 (+10.55%)
+📊 Charts saved as portfolio_charts/portfolio_chart_20251121.png
+✅ Email report sent successfully to krishvenigalla06@gmail.com
+✅ Portfolio Excel updated: updated_portfolio.xlsx
+==================================================
+📊 Daily Portfolio Tracker Summary:
+   ✅ Portfolio loaded: 15 stocks
+   ✅ Prices fetched: 15 stocks
+   ✅ Alerts found: 0 stocks
+   ✅ Email sent: Yes
+   ✅ Excel updated: Yes
+   📈 Total P&L: ₹12,277.40 (+10.55%)
+
+🎉 Daily portfolio tracking completed successfully!
+📧 Check your email for the daily report
+📁 Check 'updated_portfolio.xlsx' for updated data
+🚀 PORTFOLIO TRACKER SYSTEM
+==================================================
+🚀 Starting Daily Portfolio Tracker...
+📅 Date: 2025-11-22 10:20:07
+==================================================
+✅ Portfolio data loaded successfully from sample_portfolio.xlsx
+📊 Found 15 stocks in portfolio
+🔄 Fetching current market prices...
+✅ TMCV: ₹324.10
+✅ TMPV: ₹362.25
+✅ TATASTEEL: ₹168.00
+✅ INFY: ₹1545.00
+✅ LICI: ₹902.40
+✅ VEDL: ₹496.40
+✅ EXIDEIND: ₹375.35
+✅ TATAPOWER: ₹387.00
+✅ TRIDENT: ₹28.38
+✅ ONGC: ₹246.95
+✅ TATACHEM: ₹810.00
+✅ NTPC: ₹326.65
+✅ IRCTC: ₹690.40
+✅ IEX: ₹141.12
+✅ HCLTECH: ₹1608.00
+📈 Successfully fetched prices for 15 stocks
+🧮 Calculating portfolio performance...
+📈 TMCV: Daily change: +0.00%
+📈 TMPV: Daily change: +0.00%
+📈 TATASTEEL: Daily change: +0.00%
+📈 INFY: Daily change: +0.00%
+📈 LICI: Daily change: +0.00%
+📈 VEDL: Daily change: +0.00%
+📈 EXIDEIND: Daily change: +0.00%
+📈 TATAPOWER: Daily change: +0.00%
+📈 TRIDENT: Daily change: +0.00%
+📈 ONGC: Daily change: +0.00%
+📈 TATACHEM: Daily change: +0.00%
+📈 NTPC: Daily change: +0.00%
+📈 IRCTC: Daily change: +0.00%
+📈 IEX: Daily change: +0.00%
+📈 HCLTECH: Daily change: +0.00%
+📊 Portfolio Summary:
+   Total Investment: ₹116,363.53
+   Current Value: ₹128,640.93
+   Total P&L: ₹12,277.40 (+10.55%)
+📊 Charts saved as portfolio_charts/portfolio_chart_20251122.png
+✅ Email report sent successfully to krishvenigalla06@gmail.com
+✅ Portfolio Excel updated: updated_portfolio.xlsx
+==================================================
+📊 Daily Portfolio Tracker Summary:
+   ✅ Portfolio loaded: 15 stocks
+   ✅ Prices fetched: 15 stocks
+   ✅ Alerts found: 0 stocks
+   ✅ Email sent: Yes
+   ✅ Excel updated: Yes
+   📈 Total P&L: ₹12,277.40 (+10.55%)
+
+🎉 Daily portfolio tracking completed successfully!
+📧 Check your email for the daily report
+📁 Check 'updated_portfolio.xlsx' for updated data
+🚀 PORTFOLIO TRACKER SYSTEM
+==================================================
+🚀 Starting Daily Portfolio Tracker...
+📅 Date: 2025-11-23 10:36:26
+==================================================
+✅ Portfolio data loaded successfully from sample_portfolio.xlsx
+📊 Found 15 stocks in portfolio
+🔄 Fetching current market prices...
+❌ Error fetching price for TMCV: Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+❌ Error fetching price for TMPV: Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+❌ Error fetching price for TATASTEEL: Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+❌ Error fetching price for INFY: Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+❌ Error fetching price for LICI: Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+❌ Error fetching price for VEDL: Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+❌ Error fetching price for EXIDEIND: Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+❌ Error fetching price for TATAPOWER: Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+❌ Error fetching price for TRIDENT: Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+❌ Error fetching price for ONGC: Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+❌ Error fetching price for TATACHEM: Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+❌ Error fetching price for NTPC: Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+❌ Error fetching price for IRCTC: Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+❌ Error fetching price for IEX: Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+❌ Error fetching price for HCLTECH: Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+📈 Successfully fetched prices for 0 stocks
+🧮 Calculating portfolio performance...
+📈 TMCV: Daily change: +nan%
+📈 TMPV: Daily change: +nan%
+📈 TATASTEEL: Daily change: +nan%
+📈 INFY: Daily change: +nan%
+📈 LICI: Daily change: +nan%
+📈 VEDL: Daily change: +nan%
+📈 EXIDEIND: Daily change: +nan%
+📈 TATAPOWER: Daily change: +nan%
+📈 TRIDENT: Daily change: +nan%
+📈 ONGC: Daily change: +nan%
+📈 TATACHEM: Daily change: +nan%
+📈 NTPC: Daily change: +nan%
+📈 IRCTC: Daily change: +nan%
+📈 IEX: Daily change: +nan%
+📈 HCLTECH: Daily change: +nan%
+📊 Portfolio Summary:
+   Total Investment: ₹116,363.53
+   Current Value: ₹0.00
+   Total P&L: ₹-116,363.53 (-100.00%)
+❌ Error creating charts: cannot convert float NaN to integer
+❌ Error sending email: [Errno 8] nodename nor servname provided, or not known
+✅ Portfolio Excel updated: updated_portfolio.xlsx
+==================================================
+📊 Daily Portfolio Tracker Summary:
+   ✅ Portfolio loaded: 15 stocks
+   ✅ Prices fetched: 0 stocks
+   ✅ Alerts found: 0 stocks
+   ✅ Email sent: No
+   ✅ Excel updated: Yes
+   📈 Total P&L: ₹-116,363.53 (-100.00%)
+
+🎉 Daily portfolio tracking completed successfully!
+📧 Check your email for the daily report
+📁 Check 'updated_portfolio.xlsx' for updated data
+🚀 PORTFOLIO TRACKER SYSTEM
+==================================================
+🚀 Starting Daily Portfolio Tracker...
+📅 Date: 2025-11-24 08:26:37
+==================================================
+✅ Portfolio data loaded successfully from sample_portfolio.xlsx
+📊 Found 15 stocks in portfolio
+🔄 Fetching current market prices...
+❌ Error fetching price for TMCV: Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+❌ Error fetching price for TMPV: Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+❌ Error fetching price for TATASTEEL: Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+❌ Error fetching price for INFY: Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+❌ Error fetching price for LICI: Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+❌ Error fetching price for VEDL: Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+❌ Error fetching price for EXIDEIND: Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+❌ Error fetching price for TATAPOWER: Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+❌ Error fetching price for TRIDENT: Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+❌ Error fetching price for ONGC: Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+❌ Error fetching price for TATACHEM: Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+❌ Error fetching price for NTPC: Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+❌ Error fetching price for IRCTC: Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+❌ Error fetching price for IEX: Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+❌ Error fetching price for HCLTECH: Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+📈 Successfully fetched prices for 0 stocks
+🧮 Calculating portfolio performance...
+📊 Portfolio Summary:
+   Total Investment: ₹116,363.53
+   Current Value: ₹0.00
+   Total P&L: ₹-116,363.53 (-100.00%)
+❌ Error creating charts: cannot convert float NaN to integer
+❌ Error sending email: [Errno 8] nodename nor servname provided, or not known
+✅ Portfolio Excel updated: updated_portfolio.xlsx
+==================================================
+📊 Daily Portfolio Tracker Summary:
+   ✅ Portfolio loaded: 15 stocks
+   ✅ Prices fetched: 0 stocks
+   ✅ Alerts found: 0 stocks
+   ✅ Email sent: No
+   ✅ Excel updated: Yes
+   📈 Total P&L: ₹-116,363.53 (-100.00%)
+
+🎉 Daily portfolio tracking completed successfully!
+📧 Check your email for the daily report
+📁 Check 'updated_portfolio.xlsx' for updated data
+🚀 PORTFOLIO TRACKER SYSTEM
+==================================================
+🚀 Starting Daily Portfolio Tracker...
+📅 Date: 2025-11-25 08:20:04
+==================================================
+✅ Portfolio data loaded successfully from sample_portfolio.xlsx
+📊 Found 15 stocks in portfolio
+🔄 Fetching current market prices...
+✅ TMCV: ₹317.85
+✅ TMPV: ₹352.45
+✅ TATASTEEL: ₹166.33
+✅ INFY: ₹1530.60
+✅ LICI: ₹897.65
+✅ VEDL: ₹504.65
+✅ EXIDEIND: ₹361.85
+✅ TATAPOWER: ₹380.00
+✅ TRIDENT: ₹27.82
+✅ ONGC: ₹245.35
+✅ TATACHEM: ₹803.90
+✅ NTPC: ₹323.70
+✅ IRCTC: ₹677.50
+✅ IEX: ₹140.24
+✅ HCLTECH: ₹1601.10
+📈 Successfully fetched prices for 15 stocks
+🧮 Calculating portfolio performance...
+📊 Portfolio Summary:
+   Total Investment: ₹116,363.53
+   Current Value: ₹127,254.41
+   Total P&L: ₹10,890.88 (+9.36%)
+📊 Charts saved as portfolio_charts/portfolio_chart_20251125.png
+✅ Email report sent successfully to krishvenigalla06@gmail.com
+✅ Portfolio Excel updated: updated_portfolio.xlsx
+==================================================
+📊 Daily Portfolio Tracker Summary:
+   ✅ Portfolio loaded: 15 stocks
+   ✅ Prices fetched: 15 stocks
+   ✅ Alerts found: 0 stocks
+   ✅ Email sent: Yes
+   ✅ Excel updated: Yes
+   📈 Total P&L: ₹10,890.88 (+9.36%)
+
+🎉 Daily portfolio tracking completed successfully!
+📧 Check your email for the daily report
+📁 Check 'updated_portfolio.xlsx' for updated data
+🚀 PORTFOLIO TRACKER SYSTEM
+==================================================
+🚀 Starting Daily Portfolio Tracker...
+📅 Date: 2025-11-26 08:20:04
+==================================================
+✅ Portfolio data loaded successfully from sample_portfolio.xlsx
+📊 Found 15 stocks in portfolio
+🔄 Fetching current market prices...
+✅ TMCV: ₹324.05
+✅ TMPV: ₹359.25
+✅ TATASTEEL: ₹169.67
+✅ INFY: ₹1557.90
+✅ LICI: ₹894.80
+✅ VEDL: ₹516.30
+✅ EXIDEIND: ₹365.15
+✅ TATAPOWER: ₹391.50
+✅ TRIDENT: ₹28.37
+✅ ONGC: ₹247.70
+✅ TATACHEM: ₹815.00
+✅ NTPC: ₹326.10
+✅ IRCTC: ₹688.50
+✅ IEX: ₹141.76
+✅ HCLTECH: ₹1617.90
+📈 Successfully fetched prices for 15 stocks
+🧮 Calculating portfolio performance...
+📈 TMCV: Daily change: +1.95%
+📈 TMPV: Daily change: +1.93%
+📈 TATASTEEL: Daily change: +2.01%
+📈 INFY: Daily change: +1.78%
+📈 LICI: Daily change: -0.32%
+📈 VEDL: Daily change: +2.31%
+📈 EXIDEIND: Daily change: +0.91%
+📈 TATAPOWER: Daily change: +3.03%
+📈 TRIDENT: Daily change: +1.98%
+📈 ONGC: Daily change: +0.96%
+📈 TATACHEM: Daily change: +1.38%
+📈 NTPC: Daily change: +0.74%
+📈 IRCTC: Daily change: +1.62%
+📈 IEX: Daily change: +1.08%
+📈 HCLTECH: Daily change: +1.05%
+📊 Portfolio Summary:
+   Total Investment: ₹116,363.53
+   Current Value: ₹128,582.83
+   Total P&L: ₹12,219.30 (+10.50%)
+📊 Charts saved as portfolio_charts/portfolio_chart_20251126.png
+✅ Email report sent successfully to krishvenigalla06@gmail.com
+✅ Portfolio Excel updated: updated_portfolio.xlsx
+==================================================
+📊 Daily Portfolio Tracker Summary:
+   ✅ Portfolio loaded: 15 stocks
+   ✅ Prices fetched: 15 stocks
+   ✅ Alerts found: 0 stocks
+   ✅ Email sent: Yes
+   ✅ Excel updated: Yes
+   📈 Total P&L: ₹12,219.30 (+10.50%)
+
+🎉 Daily portfolio tracking completed successfully!
+📧 Check your email for the daily report
+📁 Check 'updated_portfolio.xlsx' for updated data
+🚀 PORTFOLIO TRACKER SYSTEM
+==================================================
+🚀 Starting Daily Portfolio Tracker...
+📅 Date: 2025-11-27 08:20:03
+==================================================
+✅ Portfolio data loaded successfully from sample_portfolio.xlsx
+📊 Found 15 stocks in portfolio
+🔄 Fetching current market prices...
+✅ TMCV: ₹343.90
+✅ TMPV: ₹357.80
+✅ TATASTEEL: ₹168.13
+✅ INFY: ₹1566.40
+✅ LICI: ₹900.25
+✅ VEDL: ₹519.10
+✅ EXIDEIND: ₹368.35
+✅ TATAPOWER: ₹392.05
+✅ TRIDENT: ₹28.18
+✅ ONGC: ₹244.00
+✅ TATACHEM: ₹808.25
+✅ NTPC: ₹327.35
+✅ IRCTC: ₹687.85
+✅ IEX: ₹140.90
+✅ HCLTECH: ₹1629.00
+📈 Successfully fetched prices for 15 stocks
+🧮 Calculating portfolio performance...
+📈 TMCV: Daily change: +6.13%
+📈 TMPV: Daily change: -0.40%
+📈 TATASTEEL: Daily change: -0.91%
+📈 INFY: Daily change: +0.55%
+📈 LICI: Daily change: +0.61%
+📈 VEDL: Daily change: +0.54%
+📈 EXIDEIND: Daily change: +0.88%
+📈 TATAPOWER: Daily change: +0.14%
+📈 TRIDENT: Daily change: -0.67%
+📈 ONGC: Daily change: -1.49%
+📈 TATACHEM: Daily change: -0.83%
+📈 NTPC: Daily change: +0.38%
+📈 IRCTC: Daily change: -0.09%
+📈 IEX: Daily change: -0.61%
+📈 HCLTECH: Daily change: +0.69%
+📊 Portfolio Summary:
+   Total Investment: ₹116,363.53
+   Current Value: ₹129,076.82
+   Total P&L: ₹12,713.29 (+10.93%)
+🚨 Found 1 alerts:
+   TMCV: 🟢 DAILY PROFIT ALERT - +6.13% today
+📊 Charts saved as portfolio_charts/portfolio_chart_20251127.png
+✅ Email report sent successfully to krishvenigalla06@gmail.com
+✅ Portfolio Excel updated: updated_portfolio.xlsx
+==================================================
+📊 Daily Portfolio Tracker Summary:
+   ✅ Portfolio loaded: 15 stocks
+   ✅ Prices fetched: 15 stocks
+   ✅ Alerts found: 1 stocks
+   ✅ Email sent: Yes
+   ✅ Excel updated: Yes
+   📈 Total P&L: ₹12,713.29 (+10.93%)
+
+🎉 Daily portfolio tracking completed successfully!
+📧 Check your email for the daily report
+📁 Check 'updated_portfolio.xlsx' for updated data
+🚀 PORTFOLIO TRACKER SYSTEM
+==================================================
+🚀 Starting Daily Portfolio Tracker...
+📅 Date: 2025-11-29 08:20:02
+==================================================
+✅ Portfolio data loaded successfully from sample_portfolio.xlsx
+📊 Found 15 stocks in portfolio
+🔄 Fetching current market prices...
+❌ Error fetching price for TMCV: Failed to perform, curl: (28) Resolving timed out after 773292 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+✅ TMPV: ₹356.80
+✅ TATASTEEL: ₹167.96
+✅ INFY: ₹1560.10
+✅ LICI: ₹894.45
+✅ VEDL: ₹526.00
+✅ EXIDEIND: ₹374.80
+✅ TATAPOWER: ₹390.10
+✅ TRIDENT: ₹28.24
+✅ ONGC: ₹243.25
+✅ TATACHEM: ₹800.40
+✅ NTPC: ₹326.45
+✅ IRCTC: ₹686.70
+✅ IEX: ₹139.29
+✅ HCLTECH: ₹1624.20
+📈 Successfully fetched prices for 14 stocks
+🧮 Calculating portfolio performance...
+📈 TMCV: Daily change: +nan%
+📈 TMPV: Daily change: +0.00%
+📈 TATASTEEL: Daily change: +0.00%
+📈 INFY: Daily change: +0.00%
+📈 LICI: Daily change: +0.00%
+📈 VEDL: Daily change: +0.00%
+📈 EXIDEIND: Daily change: +0.00%
+📈 TATAPOWER: Daily change: +0.00%
+📈 TATACHEM: Daily change: +0.00%
+📈 NTPC: Daily change: +0.00%
+📈 IRCTC: Daily change: +0.00%
+📈 IEX: Daily change: +0.00%
+📈 HCLTECH: Daily change: +0.00%
+📊 Portfolio Summary:
+   Total Investment: ₹116,363.53
+   Current Value: ₹124,677.92
+   Total P&L: ₹8,314.39 (+7.15%)
+📊 Charts saved as portfolio_charts/portfolio_chart_20251129.png
+✅ Email report sent successfully to krishvenigalla06@gmail.com
+✅ Portfolio Excel updated: updated_portfolio.xlsx
+==================================================
+📊 Daily Portfolio Tracker Summary:
+   ✅ Portfolio loaded: 15 stocks
+   ✅ Prices fetched: 14 stocks
+   ✅ Alerts found: 0 stocks
+   ✅ Email sent: Yes
+   ✅ Excel updated: Yes
+   📈 Total P&L: ₹8,314.39 (+7.15%)
+
+🎉 Daily portfolio tracking completed successfully!
+📧 Check your email for the daily report
+📁 Check 'updated_portfolio.xlsx' for updated data
+🚀 PORTFOLIO TRACKER SYSTEM
+==================================================
+🚀 Starting Daily Portfolio Tracker...
+📅 Date: 2025-11-30 08:29:45
+==================================================
+✅ Portfolio data loaded successfully from sample_portfolio.xlsx
+📊 Found 15 stocks in portfolio
+🔄 Fetching current market prices...
+✅ TMCV: ₹352.00
+✅ TMPV: ₹356.80
+✅ TATASTEEL: ₹167.96
+✅ INFY: ₹1560.10
+✅ LICI: ₹894.45
+✅ VEDL: ₹526.00
+✅ EXIDEIND: ₹374.80
+❌ Error fetching price for TATAPOWER: Failed to perform, curl: (28) Operation timed out after 140919 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+✅ TRIDENT: ₹28.24
+✅ ONGC: ₹243.25
+✅ TATACHEM: ₹800.40
+✅ NTPC: ₹326.45
+✅ IRCTC: ₹686.70
+✅ IEX: ₹139.29
+✅ HCLTECH: ₹1624.20
+📈 Successfully fetched prices for 14 stocks
+🧮 Calculating portfolio performance...
+📈 TMPV: Daily change: +0.00%
+📈 TATASTEEL: Daily change: +0.00%
+📈 INFY: Daily change: +0.00%
+📈 LICI: Daily change: +0.00%
+📈 VEDL: Daily change: +0.00%
+📈 EXIDEIND: Daily change: +0.00%
+📈 TATAPOWER: Daily change: +nan%
+📈 TRIDENT: Daily change: +0.00%
+📈 ONGC: Daily change: +0.00%
+📈 TATACHEM: Daily change: +0.00%
+📈 NTPC: Daily change: +0.00%
+📈 IRCTC: Daily change: +0.00%
+📈 IEX: Daily change: +0.00%
+📈 HCLTECH: Daily change: +0.00%
+📊 Portfolio Summary:
+   Total Investment: ₹116,363.53
+   Current Value: ₹113,297.92
+   Total P&L: ₹-3,065.61 (-2.63%)
+📊 Charts saved as portfolio_charts/portfolio_chart_20251130.png
+✅ Email report sent successfully to krishvenigalla06@gmail.com
+✅ Portfolio Excel updated: updated_portfolio.xlsx
+==================================================
+📊 Daily Portfolio Tracker Summary:
+   ✅ Portfolio loaded: 15 stocks
+   ✅ Prices fetched: 14 stocks
+   ✅ Alerts found: 0 stocks
+   ✅ Email sent: Yes
+   ✅ Excel updated: Yes
+   📈 Total P&L: ₹-3,065.61 (-2.63%)
+
+🎉 Daily portfolio tracking completed successfully!
+📧 Check your email for the daily report
+📁 Check 'updated_portfolio.xlsx' for updated data
+🚀 PORTFOLIO TRACKER SYSTEM
+==================================================
+🚀 Starting Daily Portfolio Tracker...
+📅 Date: 2025-12-01 08:36:38
+==================================================
+✅ Portfolio data loaded successfully from sample_portfolio.xlsx
+📊 Found 15 stocks in portfolio
+🔄 Fetching current market prices...
+✅ TMCV: ₹359.05
+✅ TMPV: ₹363.80
+✅ TATASTEEL: ₹168.63
+✅ INFY: ₹1564.00
+✅ LICI: ₹882.10
+✅ VEDL: ₹533.30
+✅ EXIDEIND: ₹380.15
+✅ TATAPOWER: ₹389.75
+✅ TRIDENT: ₹28.08
+✅ ONGC: ₹244.83
+✅ TATACHEM: ₹795.40
+✅ NTPC: ₹327.10
+✅ IRCTC: ₹684.30
+✅ IEX: ₹146.70
+✅ HCLTECH: ₹1642.90
+📈 Successfully fetched prices for 15 stocks
+🧮 Calculating portfolio performance...
+📈 TMCV: Daily change: +2.00%
+📈 TMPV: Daily change: +1.96%
+📈 TATASTEEL: Daily change: +0.40%
+📈 INFY: Daily change: +0.25%
+📈 LICI: Daily change: -1.38%
+📈 VEDL: Daily change: +1.39%
+📈 EXIDEIND: Daily change: +1.43%
+📈 TRIDENT: Daily change: -0.57%
+📈 ONGC: Daily change: +0.65%
+📈 TATACHEM: Daily change: -0.62%
+📈 NTPC: Daily change: +0.20%
+📈 IRCTC: Daily change: -0.35%
+📈 IEX: Daily change: +5.32%
+📈 HCLTECH: Daily change: +1.15%
+📊 Portfolio Summary:
+   Total Investment: ₹116,363.53
+   Current Value: ₹129,417.92
+   Total P&L: ₹13,054.39 (+11.22%)
+🚨 Found 1 alerts:
+   IEX: 🟢 DAILY PROFIT ALERT - +5.32% today
+📊 Charts saved as portfolio_charts/portfolio_chart_20251201.png
+✅ Email report sent successfully to krishvenigalla06@gmail.com
+✅ Portfolio Excel updated: updated_portfolio.xlsx
+==================================================
+📊 Daily Portfolio Tracker Summary:
+   ✅ Portfolio loaded: 15 stocks
+   ✅ Prices fetched: 15 stocks
+   ✅ Alerts found: 1 stocks
+   ✅ Email sent: Yes
+   ✅ Excel updated: Yes
+   📈 Total P&L: ₹13,054.39 (+11.22%)
+
+🎉 Daily portfolio tracking completed successfully!
+📧 Check your email for the daily report
+📁 Check 'updated_portfolio.xlsx' for updated data
